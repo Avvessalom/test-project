@@ -17,8 +17,12 @@ jobs:
       - uses: FantasticFiasco/action-update-license-year@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: ./**/*.{kt,kts} 
+          path: ./**/*.kt 
       - uses: FantasticFiasco/action-update-license-year@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: ./*.{kt,kts}
+          path: ./**/*.kts 
+      - uses: FantasticFiasco/action-update-license-year@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: ./*.kts
