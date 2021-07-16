@@ -1,3 +1,8 @@
+package kek
 fun main() {
-    println("lol")
+    println(mem())
+}
+
+fun mem(): String {
+    return "mem"
 }
