@@ -14,3 +14,4 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Avvessalom_test-project&metric=coverage)](https://sonarcloud.io/dashboard?id=Avvessalom_test-project)
 
 
+[![codecov](https://codecov.io/gh/JetBrains/projector-client/branch/master/graph/badge.svg?token=XH5BF4QZH5)](https://codecov.io/gh/JetBrains/projector-client)
