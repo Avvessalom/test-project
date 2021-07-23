@@ -1,8 +1,8 @@
 name: Update copyright year(s) in license file
 
 on:
-  schedule:
-    - cron: "* * * 7 *"
+  push:
+    branches: [ master ]
 
 jobs:
   update-license-year:
