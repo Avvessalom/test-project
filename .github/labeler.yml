@@ -39,7 +39,7 @@ util-logging:
   - "projector-util-logging/*"
 
 tests:
-  - "./**/test/**.kt"
+  - "**/test/**.kt"
 
 documentation:
   - "docSrc/**"
