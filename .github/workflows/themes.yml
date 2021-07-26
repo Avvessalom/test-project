@@ -10,19 +10,4 @@ jobs:
       - uses: actions/labeler@v2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          theme:build:
-            - ".github/**"
-            - "build.gradle.kts"
-            - ".gradle.properties"
-            - ".gitignore"
-
-          theme:code:
-            - "src/main/*"
-
-          theme:tests:
-            - "src/test/*"
-
-          theme:documentation:
-            - "docs/**"
-
-          theme:TRASH: ".idea/**"
+          sync-labels: true

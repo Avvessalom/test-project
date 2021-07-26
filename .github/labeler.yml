@@ -1,0 +1,49 @@
+build:
+  - ".github/**"
+  - ".gitignore"
+  - "build.gradle.kts"
+  - "./**/build.gradle.kts"
+  - "gradle.properties"
+
+agent-common:
+  - "projector-agent-common/*"
+
+agent-ij-injector:
+  - "projector-agent-ij-injector/*"
+
+agent-initialization:
+  - "projector-agent-initialization/*"
+
+client-common:
+  - "projector-client-common/*"
+
+client-swing:
+  - "projector-client-swing/*"
+
+client-web:
+  - "projector-client-web/*"
+
+common:
+  - "common/*"
+
+launcher:
+  - "launcher/*"
+
+server-core:
+  - "core/*"
+
+util-agent:
+  - "projector-util-agent/*"
+
+util-logging:
+  - "projector-util-logging/*"
+
+tests:
+  - "**/test/**.kt"
+
+documentation:
+  - "docSrc/**"
+  - "docs"
+
+main-readme:
+  - "README.md"
