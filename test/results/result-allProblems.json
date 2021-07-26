@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "listProblem": [
+    {
+      "category": "License Compliance",
+      "detailsInfo": "Check the [dependency](https://junit.org/junit5/) licenses and either remove the dependency or [add its licenses to the allowed list](https://www.jetbrains.com/help/Qodana/license-audit-output.html#uncategorized-dependency-license): project license MIT, dependency license EPL-2.0",
+      "comment": "org.junit.jupiter:junit-jupiter-api (5.6.0) EPL 2.0 is not in the allowed or the prohibited license lists",
+      "hash": 184495815151964801,
+      "tags": [
+        "LICENSE: MIT",
+        "LICENSE: EPL-2.0"
+      ],
+      "type": "Uncategorized dependency license",
+      "tool": "License Audit",
+      "sources": [
+        {
+          "type": "module",
+          "path": ""
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "UncategorizedDependencyLicense"
+      },
+      "severity": "High"
+    },
+    {
+      "category": "License Compliance",
+      "detailsInfo": "Check the [dependency](https://junit.org/junit5/) licenses and either remove the dependency or [add its licenses to the allowed list](https://www.jetbrains.com/help/Qodana/license-audit-output.html#uncategorized-dependency-license): project license MIT, dependency license EPL-2.0",
+      "comment": "org.junit.jupiter:junit-jupiter-engine (5.6.0) EPL 2.0 is not in the allowed or the prohibited license lists",
+      "hash": 866929383080135717,
+      "tags": [
+        "LICENSE: MIT",
+        "LICENSE: EPL-2.0"
+      ],
+      "type": "Uncategorized dependency license",
+      "tool": "License Audit",
+      "sources": [
+        {
+          "type": "module",
+          "path": ""
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "UncategorizedDependencyLicense"
+      },
+      "severity": "High"
+    },
+    {
+      "category": "License Compliance",
+      "detailsInfo": "Check the [dependency](https://junit.org/junit5/) licenses and either remove the dependency or [add its licenses to the allowed list](https://www.jetbrains.com/help/Qodana/license-audit-output.html#uncategorized-dependency-license): project license MIT, dependency license EPL-2.0",
+      "comment": "org.junit.jupiter:junit-jupiter-params (5.6.0) EPL 2.0 is not in the allowed or the prohibited license lists",
+      "hash": 371670565935926027,
+      "tags": [
+        "LICENSE: MIT",
+        "LICENSE: EPL-2.0"
+      ],
+      "type": "Uncategorized dependency license",
+      "tool": "License Audit",
+      "sources": [
+        {
+          "type": "module",
+          "path": ""
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "UncategorizedDependencyLicense"
+      },
+      "severity": "High"
+    },
+    {
+      "category": "License Compliance",
+      "detailsInfo": "Check the [dependency](https://junit.org/junit5/) licenses and either remove the dependency or [add its licenses to the allowed list](https://www.jetbrains.com/help/Qodana/license-audit-output.html#uncategorized-dependency-license): project license MIT, dependency license EPL-2.0",
+      "comment": "org.junit.platform:junit-platform-commons (1.6.0) EPL 2.0 is not in the allowed or the prohibited license lists",
+      "hash": 742569112402482931,
+      "tags": [
+        "LICENSE: MIT",
+        "LICENSE: EPL-2.0"
+      ],
+      "type": "Uncategorized dependency license",
+      "tool": "License Audit",
+      "sources": [
+        {
+          "type": "module",
+          "path": ""
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "UncategorizedDependencyLicense"
+      },
+      "severity": "High"
+    },
+    {
+      "category": "License Compliance",
+      "detailsInfo": "Check the [dependency](https://junit.org/junit5/) licenses and either remove the dependency or [add its licenses to the allowed list](https://www.jetbrains.com/help/Qodana/license-audit-output.html#uncategorized-dependency-license): project license MIT, dependency license EPL-2.0",
+      "comment": "org.junit.platform:junit-platform-engine (1.6.0) EPL 2.0 is not in the allowed or the prohibited license lists",
+      "hash": 831775049732296915,
+      "tags": [
+        "LICENSE: MIT",
+        "LICENSE: EPL-2.0"
+      ],
+      "type": "Uncategorized dependency license",
+      "tool": "License Audit",
+      "sources": [
+        {
+          "type": "module",
+          "path": ""
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "UncategorizedDependencyLicense"
+      },
+      "severity": "High"
+    },
+    {
+      "category": "License Compliance",
+      "detailsInfo": "Try to find the dependency licenses and either ignore the problem or manually [assign the found licenses to this dependency](https://www.jetbrains.com/help/Qodana/license-audit-output.html#unrecognized-dependency-license)",
+      "comment": "org.junit:junit-bom (5.6.0) license cannot be recognized",
+      "hash": 414510148998302665,
+      "tags": [
+        "LICENSE: UNKNOWN"
+      ],
+      "type": "Unrecognized dependency license",
+      "tool": "License Audit",
+      "sources": [
+        {
+          "type": "module",
+          "path": ""
+        }
+      ],
+      "attributes": {
+        "module": "",
+        "inspectionName": "UnrecognizedDependencyLicense"
+      },
+      "severity": "High"
+    }
+  ]
+}
