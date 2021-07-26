@@ -36,4 +36,9 @@ class MainTests {
         assertEquals("mem", mem())
     }
 
+    @Test
+    @DisplayName("kek")
+    fun kek_test() {
+        assertNotEquals("kek", mem())
+    }
 }
