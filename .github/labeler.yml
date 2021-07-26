@@ -1,16 +1,16 @@
-theme:build:
+build:
   - ".github/**"
   - "build.gradle.kts"
   - ".gradle.properties"
   - ".gitignore"
 
-theme:code:
+code:
   - "src/main/*"
 
-theme:tests:
+tests:
   - "src/test/*"
 
-theme:documentation:
+documentation:
   - "docs/**"
 
-theme:TRASH: ".idea/**"
+TRASH: ".idea/**"
