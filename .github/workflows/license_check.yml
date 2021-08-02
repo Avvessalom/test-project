@@ -1,8 +1,7 @@
 name: Update copyright year(s) in license file
 
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   update-license-year:
