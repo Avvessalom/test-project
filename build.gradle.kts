@@ -47,6 +47,8 @@ sonarqube {
 }
 
 dependencies {
+    annotationProcessor("org.apache.logging.log4j:log4j-core:2.13.3")
+    implementation("org.apache.logging.log4j:log4j-core:2.13.3")
     testImplementation(kotlin("test-junit"))
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.6.0")
     testImplementation("org.junit.jupiter:junit-jupiter-params")

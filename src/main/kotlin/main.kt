@@ -23,7 +23,20 @@
  */
 
 package kek
+
+import org.apache.logging.log4j.LogManager
+import org.apache.logging.log4j.Logger
+
 fun main() {
+    val log: Logger = LogManager.getLogger("kek1")
+
+    log.trace("START")
+    log.error("ERROR")
+    log.error("ERROR")
+    log.error("ERROR")
+    log.info("INFOKEK")
+    log.trace("END")
+
     println(mem())
 }
 
